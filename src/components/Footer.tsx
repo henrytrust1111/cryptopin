@@ -1,9 +1,6 @@
 "use client";
 
 import React from "react";
-import { FaHouseChimneyWindow } from "react-icons/fa6";
-import { PiPhoneCallFill } from "react-icons/pi";
-import { RiMailFill } from "react-icons/ri";
 import Link from "next/link";
 
 const Footer = () => {
@@ -11,7 +8,10 @@ const Footer = () => {
     <div className="h-max w-full flex flex-col items-center justify-center bg-[#32302f]">
       <div className="w-[90%] h-max flex justify-between space-x-8  py-10 max-[700px]:flex-col max-[700px]:space-x-0 max-[700px]:space-y-8">
         <div className="flex flex-col space-y-7 w-[33%] max-[700px]:w-full">
-         <Link href="/"> <p className="text-white text-3xl">TheCurveAfrica</p></Link>
+          <Link href="/">
+            {" "}
+            <p className="text-white text-3xl">TheCurveAfrica</p>
+          </Link>
           <div className="flex flex-col space-y-2">
             <p className="text-[#ffffff5d]">We learn by coding </p>
           </div>
