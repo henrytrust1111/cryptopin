@@ -18,9 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-screen flex flex-col justify-between">
+      <body className="w-full h-screen flex flex-col justify-between items-center">
         <Header />
-        <main>{children}</main>
+        <main className="w-full flex flex-col justify-center items-center">{children}</main>
         <Footer />
       </body>
     </html>
