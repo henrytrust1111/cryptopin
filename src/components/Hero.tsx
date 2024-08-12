@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="relative w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] flex flex-col items-center justify-center text-center py-16 ">
       <img src="/imgs/hero/coin.png" alt="" width={100} className="absolute -right-16 top-20" />
       <img src="/imgs/hero/pattern.png" alt="" width={100} className="absolute -left-16 top-32  " />
-      <img src="/imgs/hero/image.png" alt="" width={150} className="absolute right-0 bottom-6  " />
+      <img src="/imgs/hero/image.png" alt="" width={150} className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6  " />
       <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded-full">
         Updated On March 31, 2022
       </span>
@@ -31,7 +31,7 @@ const Hero = () => {
       <p className="relative mt-4 text-base text-gray-500 max-w-xl">
         Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Sed Do Eiusmod
         Tempor Incididunt Ut Labore Et Dolore Magna Aliqua Ut Dolor Sit
-      <img src="/imgs/hero/chart.png" alt="" width={100} className="absolute -bottom-24 left-8 sm:-left-24 sm:-bottom-12  " />
+      <img src="/imgs/hero/chart.png" alt="" width={100} className="absolute -bottom-24 -left-8 sm:-left-24 sm:-bottom-12  " />
       </p>
       <Link href="#" passHref>
         <button className="mt-8 px-8 py-3 text-sm font-medium text-[#212326] bg-gray-200 hover:bg-gray-300 rounded-full flex items-center justify-center cursor-pointer">
