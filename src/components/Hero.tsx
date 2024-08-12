@@ -6,9 +6,9 @@ import { Ubuntu } from "next/font/google";
 
 
 const ubuntu = Ubuntu({
-  subsets: ["latin"],  // Specify the subsets you need
-  weight: ["400", "700"],  // Specify the weights you need (e.g., regular and bold)
-  style: ["normal", "italic"],  // Optional: Specify the styles (e.g., normal and italic)
+  subsets: ["latin"],
+  weight: ["400", "700"], 
+  style: ["normal", "italic"], 
 });
 
 const Hero = () => {
