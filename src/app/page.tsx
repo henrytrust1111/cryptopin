@@ -5,7 +5,7 @@ import Counter from "@/components/Counter";
 import Abt from "@/components/Abt";
 import ClientLofo from "@/components/ClientLofo";
 import Work from "@/components/Work";
-import Product from "@/components/Product";
+// import Product from "@/components/Product";
 
 const Home = () => {
   return (
