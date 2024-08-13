@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 
@@ -21,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.className}`}>
       <body className="w-full h-screen flex flex-col justify-between items-center">
         <Header />
         <main className="w-full flex flex-col justify-center items-center">{children}</main>

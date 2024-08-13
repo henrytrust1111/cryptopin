@@ -1,6 +1,13 @@
 import Link from "next/link";
 import React from "react";
 import { FaClock, FaShieldAlt } from "react-icons/fa";
+import { Ubuntu } from "next/font/google";
+
+const ubuntu = Ubuntu({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+});
 
 const Abt = () => {
   return (
@@ -8,7 +15,7 @@ const Abt = () => {
      <div className="w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-8 py-16">
       {/* Left Section */}
       <div className="flex flex-col justify-center space-y-6">
-        <h1 className="text-4xl font-bold text-gray-900">
+        <h1 className={`text-3xl sm:text-4xl font-bold text-gray-900 ${ubuntu.className}`}>
           Explore Endless <br /> Possibilities With{" "}
           <span className="text-pink-500">Cryptop</span>
         </h1>
@@ -38,7 +45,7 @@ const Abt = () => {
 
       {/* Right Section */}
       <div className="relative">
-        <img src="/imgs/abt.png" alt="" />
+        <img src="/imgs/abt.png" alt="" className="animate-float" />
       </div>
     </div>
    </div>

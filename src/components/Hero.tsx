@@ -8,26 +8,32 @@ const ubuntu = Ubuntu({
   style: ["normal", "italic"],
 });
 
+// const inter = Inter({
+//   subsets: ["latin"],
+//   weight: ["400", "700"],
+//   style: ["normal"],
+// });
+
 const Hero = () => {
   return (
-    <div className="relative w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] flex flex-col items-center justify-center text-center py-16 overflow-hidden lg:overflow-visible ">
+    <div className={`relative w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] flex flex-col items-center justify-center text-center py-16 overflow-hidden lg:overflow-visible`}>
       <img
         src="/imgs/hero/coin.png"
         alt=""
         width={100}
-        className="absolute -right-16 top-20"
+        className="absolute -right-16 top-20 animate-float"
       />
       <img
         src="/imgs/hero/Pattern.png"
         alt=""
         width={100}
-        className="absolute -left-16 top-32  "
+        className="absolute -left-16 top-32 animate-float"
       />
       <img
         src="/imgs/hero/Image.png"
         alt=""
         width={150}
-        className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6  "
+        className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6 animate-float"
       />
       <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded-full">
         Updated On March 31, 2022
@@ -48,7 +54,7 @@ const Hero = () => {
           src="/imgs/hero/chart.png"
           alt=""
           width={100}
-          className="absolute -bottom-24 -left-8 sm:-left-24 sm:-bottom-12  "
+          className="absolute -bottom-24 -left-8 sm:-left-24 sm:-bottom-12 animate-float"
         />
       </p>
       <Link href="#" passHref>
