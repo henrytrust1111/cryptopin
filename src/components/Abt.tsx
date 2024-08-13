@@ -12,9 +12,9 @@ const ubuntu = Ubuntu({
 const Abt = () => {
   return (
    <div className="bg-[#EAEEF1] grid place-items-center mt-8">
-     <div className="w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-8 py-16">
+     <div className="w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-11 py-16">
       {/* Left Section */}
-      <div className="flex flex-col justify-center space-y-6">
+      <div className="flex flex-col justify-start space-y-6">
         <h1 className={`text-3xl sm:text-4xl font-bold text-gray-900 ${ubuntu.className}`}>
           Explore Endless <br /> Possibilities With{" "}
           <span className="text-pink-500">Cryptop</span>

@@ -21,19 +21,19 @@ const Hero = () => {
         src="/imgs/hero/coin.png"
         alt=""
         width={100}
-        className="absolute -right-16 top-20 animate-float"
+        className="absolute -right-16 top-20"
       />
       <img
         src="/imgs/hero/Pattern.png"
         alt=""
         width={100}
-        className="absolute -left-16 top-32 animate-float"
+        className="absolute -left-16 top-32"
       />
       <img
         src="/imgs/hero/Image.png"
         alt=""
         width={150}
-        className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6 animate-float"
+        className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6"
       />
       <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded-full">
         Updated On March 31, 2022
@@ -54,7 +54,7 @@ const Hero = () => {
           src="/imgs/hero/chart.png"
           alt=""
           width={100}
-          className="absolute -bottom-24 -left-8 sm:-left-24 sm:-bottom-12 animate-float"
+          className="absolute -bottom-24 -left-8 sm:-left-24 sm:-bottom-12"
         />
       </p>
       <Link href="#" passHref>
