@@ -13,7 +13,7 @@ const ubuntu = Ubuntu({
 
 const Hero = () => {
   return (
-    <div className="relative w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] flex flex-col items-center justify-center text-center py-16 ">
+    <div className="relative w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] flex flex-col items-center justify-center text-center py-16 overflow-hidden lg:overflow-visible ">
       <img src="/imgs/hero/coin.png" alt="" width={100} className="absolute -right-16 top-20" />
       <img src="/imgs/hero/pattern.png" alt="" width={100} className="absolute -left-16 top-32  " />
       <img src="/imgs/hero/image.png" alt="" width={150} className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6  " />
