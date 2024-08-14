@@ -7,6 +7,7 @@ import ClientLofo from "@/components/ClientLofo";
 import Work from "@/components/Work";
 import Product from "@/components/Product";
 import WhyUs from "@/components/WhyUs";
+import Process from "@/components/Process";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Work />
       <Product />
       <WhyUs />
+      <Process />
     </div>
   );
 };
