@@ -19,8 +19,8 @@ const WhyUs = () => {
   return (
     <section className="w-[93%] sm:w-[95%] md:w-[90%] lg:w-[80%] py-16">
       <div className=" mb-12">
-        <h2 className={`text-2xl md:text-3xl font-bold text-center lg:text-start ${ubuntu.className}`}>
-          Fully Featured To Buy, Trade And <br /> Invest In {" "}
+        <h2 className={`lg:w-[50%] text-2xl md:text-3xl font-bold text-center lg:text-start ${ubuntu.className}`}>
+          Fully Featured To Buy, Trade And  Invest In {" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500">
             Cryptop
           </span>
