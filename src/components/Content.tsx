@@ -32,6 +32,7 @@ const Content = () => {
           </p>
         </div>
 
+
         {/* Options Section */}
         <div className="flex flex-col lg:flex-row justify-end gap-4">
           <div className="flex items-center bg-white text-black py-2 px-4 rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">

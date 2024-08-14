@@ -3,7 +3,7 @@ import { FaChartPie, FaChartBar, FaRegChartBar } from "react-icons/fa";
 
 const Investment = () => {
   return (
-    <div className="bg-white rounded-[40px] shadow-lg z-10 ">
+    <div className="bg-white rounded-xl md:rounded-[40px] shadow-lg z-10 ">
       <div className="w-full flex justify-end space-x-1 p-5 ">
         <div className="w-3 h-3 bg-red-500 rounded-full"></div>
         <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -21,7 +21,7 @@ const Investment = () => {
         </div>
 
         {/* Right Section: Text Content */}
-        <div className="flex-1 text-center lg:text-left">
+        <div className="flex-1 text-center lg:text-left px-5">
           <div className="inline-block bg-orange-200 text-orange-700 rounded-full px-3 py-1 mb-4">
             Invest In Everything
           </div>
@@ -31,12 +31,12 @@ const Investment = () => {
               Interest Rate
             </span>
           </h2>
-          <p className="mt-4 text-gray-500">
+          <p className="mt-4 text-gray-500 text-sm md:text-base">
             Proactively Envisioned Multimedia Based Expertise And Cross-Media
             Growth Strategies. Seamlessly Visualize Quality Intellectual Capital
             Without Superior.
           </p>
-          <button className="mt-8 bg-[#F3F3F3] text-black text-sm sm:text-base py-3 px-6 rounded-full shadow-md hover:bg-gray-300 transform hover:scale-105 transition duration-300 ease-in-out">
+          <button className="mt-8 bg-[#F3F3F3] text-black text-sm sm:text-base py-2 md:py-3 px-6 rounded-lg md:rounded-full shadow-md hover:bg-gray-300 transform hover:scale-105 transition duration-300 ease-in-out">
             Create Account For Free
           </button>
         </div>

@@ -6,6 +6,7 @@ import Abt from "@/components/Abt";
 import ClientLofo from "@/components/ClientLofo";
 import Work from "@/components/Work";
 import Product from "@/components/Product";
+import WhyUs from "@/components/WhyUs";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <ClientLofo />
       <Work />
       <Product />
+      <WhyUs />
     </div>
   );
 };
