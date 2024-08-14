@@ -8,6 +8,7 @@ import Work from "@/components/Work";
 import Product from "@/components/Product";
 import WhyUs from "@/components/WhyUs";
 import Process from "@/components/Process";
+import Testimonials from "@/components/Testimonials";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Product />
       <WhyUs />
       <Process />
+      <Testimonials />
     </div>
   );
 };

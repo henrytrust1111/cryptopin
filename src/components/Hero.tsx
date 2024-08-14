@@ -27,13 +27,13 @@ const Hero = () => {
         src="/imgs/hero/Pattern.png"
         alt=""
         width={100}
-        className="absolute -left-16 top-32"
+        className="absolute -left-16 top-32 invisible lg:visible"
       />
       <img
         src="/imgs/hero/Image.png"
         alt=""
         width={150}
-        className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6"
+        className="absolute -right-12 bottom-0 sm:right-0 sm:bottom-6 invisible lg:visible"
       />
       <span className="text-sm text-green-600 bg-green-100 px-2 py-1 rounded-full">
         Updated On March 31, 2022
