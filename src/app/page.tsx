@@ -9,6 +9,8 @@ import Product from "@/components/Product";
 import WhyUs from "@/components/WhyUs";
 import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
+import Mobile from "@/components/Mobile";
+import News from "@/components/News";
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <WhyUs />
       <Process />
       <Testimonials />
+      <Mobile />
+      <News />
     </div>
   );
 };
